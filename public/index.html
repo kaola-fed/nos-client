@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>文件上传</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" media="screen,projection">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.2.0/min/dropzone.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div id="preview-modal" class="modal bottom-sheet">
+    <div class="modal-content">
+      <iframe src='about:blank' width='100%' height='500px' frameborder='0'></iframe>
+    </div>
+  </div>
+  <nav>
+    <div class="nav-wrapper cyan accent-4">
+      <a href="/" class="brand-logo">文件上传</a>
+      <a data-activates="mobile-menu" class="button-collapse">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li class="getlink-remove-all">
+          <a class="waves-effect waves-light">
+            <i class="fa fa-trash"></i> <span style="color: #EE6E73">清空</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="side-nav" id="mobile-menu">
+        <li class="getlink-remove-all">
+          <a class="waves-effect waves-light">
+            <i class="fa fa-trash"></i> <span style="color: #EE6E73">清空</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <form action="/upload" class="dropzone" id="my-awesome-dropzone">
+    <div class="dz-message">
+      <i class="fa fa-cloud-upload fa-5x"></i>
+      <div>点击上传文件或者把文件拖到此区域</div>
+    </div>
+  </form>
+  <div id="getlink_preview" class="row">
+    <div class="u-tips">
+      <h5>主要特性：</h5>
+      <ul>
+        <li> - 支持拖动上传，支持多文件上传</li>
+        <li> - 支持点击预览，包括图片和常见其它格式（doc、ppt、xls、txt、pdf）</li>
+        <li> - 通过浏览器 localStorage 缓存记录，刷新后记录依然在</li>
+        <li style="color: red"> - 注意：这里的删除和清空并不是从服务端删除，外链依旧在，只是不显示在预览区而已</li>
+      </ul>
+    </div>
+    <!-- Append dynamicly. -->
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.2.0/min/dropzone.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.5/clipboard.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

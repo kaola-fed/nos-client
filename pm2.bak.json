@@ -1,0 +1,17 @@
+{
+  "apps": [{
+    "name": "nos",
+    "script": "app.js",
+    "node_args": "--harmony",
+    "watch": ["app"],
+    "instances": 1,
+    "exec_mode": "fork",
+    "env": {
+      "VCAP_APP_PORT": 10010,
+      "BUCKET": "<BUCKET>",
+      "END_POINT": "<END_POINT>",
+      "ACCESS_KEY": "<ACCESS_KEY>",
+      "SECRET_KEY": "<SECRET_KEY>"
+    }
+  }]
+}

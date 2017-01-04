@@ -1,0 +1,96 @@
+.dropzone {
+  border: 2px dashed #D1D1D1;
+  border-radius: 5px;
+  background: #F9F9F9;
+  color: rgba(0, 0, 0, .54);
+  margin: 10px;
+  height: 250px;
+}
+
+.dropzone .dz-message {
+  font-weight: 400;
+}
+
+.dropzone .dz-message .note {
+  font-size: 0.8em;
+  font-weight: 200;
+  display: block;
+  margin-top: 1.4rem;
+}
+
+.dz-preview:hover {
+  cursor: pointer;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Microsoft YaHei","Hiragino Sans GB","WenQuanYi Micro Hei", "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: #FCFCFC;
+  text-rendering: optimizeLegibility;
+}
+
+.side-nav {
+  background-color: #005C6A;
+}
+
+.brand-logo {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.card-action {
+  padding: 10px !important;
+  font-size: 13px;
+}
+
+.card-action a {
+  cursor: pointer;
+}
+
+.side-nav,
+.side-nav a:hover,
+.side-nav li:hover,
+.side-nav li.active {
+  background-color: #53B5C4;
+}
+
+.side-nav a {
+  color: white;
+}
+
+.toast {
+  font-size: 15px;
+  word-break: normal;
+  background-color: green;
+}
+
+.fa-trash {
+  cursor: pointer;
+  color: #EE6E73;
+}
+
+.getlink-remove-all {
+  display: none;
+}
+
+.u-filename {
+  font-size: 12px;
+  padding: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #eee;
+}
+
+.u-tips {
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .dz-message {
+    font-size: 16px;
+  }
+}

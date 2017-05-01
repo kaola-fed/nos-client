@@ -73,12 +73,12 @@
     }
   };
   var prevewIcons = {
-    doc: 'http://haitao.nos.netease.com/3f31f6b9baa147fda7ab44e48a4fe0d6.png',
-    ppt: 'http://haitao.nos.netease.com/6a2be951849b47df89dd85cf5c5a425d.png',
-    xls: 'http://haitao.nos.netease.com/5a99e61b5b7b4a3cb13f6ea7bc1848c0.png',
-    pdf: 'http://haitao.nos.netease.com/d82c8d50c9bf4485aa08be2f28b85964.png',
-    txt: 'http://haitao.nos.netease.com/c44ed8893cc240d584b06c1615ae8a93.png',
-    none: 'http://haitao.nos.netease.com/b743cd6c7e8841088fd197dc3843f64a.png'
+    doc: 'https://haitao.nos.netease.com/3f31f6b9baa147fda7ab44e48a4fe0d6.png',
+    ppt: 'https://haitao.nos.netease.com/6a2be951849b47df89dd85cf5c5a425d.png',
+    xls: 'https://haitao.nos.netease.com/5a99e61b5b7b4a3cb13f6ea7bc1848c0.png',
+    pdf: 'https://haitao.nos.netease.com/d82c8d50c9bf4485aa08be2f28b85964.png',
+    txt: 'https://haitao.nos.netease.com/c44ed8893cc240d584b06c1615ae8a93.png',
+    none: 'https://haitao.nos.netease.com/b743cd6c7e8841088fd197dc3843f64a.png'
   };
   var office365 = 'https://view.officeapps.live.com/op/embed.aspx?src=';
 

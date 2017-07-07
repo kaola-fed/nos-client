@@ -174,7 +174,7 @@
 
   // Dropzone settings
   Dropzone.options.myAwesomeDropzone = {
-    paramName: 'fileData',
+    paramName: 'file',
     addRemoveLinks: true,
     init: function() {
       var param = this.params;

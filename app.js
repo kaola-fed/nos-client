@@ -1,11 +1,14 @@
 const express = require('express');
 const multer  = require('multer');
+const cors = require('cors');
 const nos = require('./lib/nos');
 const upload = multer();
 const app = express();
 
+app.use(cors())
+
 app.use('/', express.static('public'));
-app.post('/upload', upload.single('fileData'), (req, res) => {
+app.post('/upload', upload.single('file'), (req, res) => {
   nos(req.file, (err, result) => {
     res.json(result);
   });

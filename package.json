@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/kaola-fed/nos-client#readme",
   "dependencies": {
+    "cors": "^2.8.3",
     "express": "^4.14.0",
     "multer": "^1.2.1",
     "nos-node-sdk": "0.0.2",
